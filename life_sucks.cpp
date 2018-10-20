@@ -3,28 +3,39 @@
 using namespace std;
 
 int main() {
-    int a,t,temp;
-    cin>>a;
-    string value;
-    for(int i=0;i<a;i++){
-        value+="0 ";
+  int a,t,temp
+  cin>>a;
+  std::vector<int> v;
+  cout<<"Q ";
+  for(int i=0;i<a;i++){
+    v.at(i)=0;
+    cout<<v.at(i)<<" "
+  }
+  cout.flush();
+  int temp,t;
+  cin>>temp;
+  for(int i=0;i<a;i++){
+    cout<<"Q ";
+    v.at(i)=1;
+    for(int j=0;j<a;j++){
+    cout<<v.at(j)<<" "
     }
-    cout<<"Q "<<value;
     cout.flush();
     cin>>t;
-    for(int i=0;i<a;i++){
-        value.at(i)='1';
-        cout<<"Q "<<value;
-        cout.flush();
-        cin>>temp;
-        if(temp>t){
-            value.at(i)='0';
-        }
-        else{
-            t=temp;
-        }
-        i++;
+    if(t>temp){
+        temp=t;
     }
-    cout<<"A "<<value;
+    else{
+
+        v.at(i)=0;
+    }
+
+  }
+  cout<<"A ";
+  for(int j=0;j<a;j++){
+    cout<<v.at(j)<<" "
+    }
+
+
     return 0;
 }

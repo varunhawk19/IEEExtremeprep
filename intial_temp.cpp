@@ -30,7 +30,7 @@ int main(){
 		cin>>te.data>>te.type;
 		Queries.push_back(te);
 	}
-	for(int i=0;i<n;i++){;
+	for(int i=0;i<n;i++){
 		tem=data.at(i);
 		cout<<tem.parent<<" "<<tem.child<<" "<<tem.below<<" "<<tem.below_direct<<endl;
 	}

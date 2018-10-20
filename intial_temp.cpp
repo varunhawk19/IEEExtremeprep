@@ -24,7 +24,8 @@ int main(){
 		data.push_back(temp);
 		cout<<" y";
 	}
-	for(int i=0;i<q;i++){
+	for(int i=0;i<q;i++)
+	{
 		Query te;
 		cin>>te.data>>te.type;
 		Queries.push_back(te);

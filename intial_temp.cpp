@@ -22,7 +22,7 @@ int main(){
 		cin>>temp.below;
 		cin>>temp.below_direct;
 		data.push_back(temp);
-		cout<<" y";
+		cout<<" y";//
 	}
 	for(int i=0;i<q;i++)
 	{

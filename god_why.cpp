@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 bool func(){
-	register int a,b,temp;
+	register int a,b
+		temp;
 	bool flag=true;
 	cin>>a>>b;
 	vector<int> v;

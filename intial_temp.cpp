@@ -20,7 +20,7 @@ int main(){
 		cin>>temp.parent;
 		cin>>temp.child;
 		cin>>temp.below;
-		cin>>temp.below_direct;
+
 		data.push_back(temp);
 		cout<<" y";//
 	}

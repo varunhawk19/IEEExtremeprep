@@ -15,7 +15,7 @@ int main(){
 	long long int n,q;
 	cin>>n>>q;
 	for(int i=0;i<n;i++)
-	{
+{
 		Node temp;
 		cin>>temp.parent;
 		cin>>temp.child;
